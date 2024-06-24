@@ -55,7 +55,7 @@ ingress:
           - pathType: Prefix
             backend:
               service:
-                name: nginx-service
+                name: helm-demo-test1
                 port:
                   number: 80
             path: /
